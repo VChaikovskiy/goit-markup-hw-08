@@ -1,0 +1,151 @@
+
+.header {
+    border-bottom-style: solid;
+    border-bottom-color: $border-color-nav;
+    border-width: 1px;
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.header__navigation {
+    display: flex;
+    margin: 0;
+    margin-left: 93px;
+    padding: 0;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    color: $header-list;
+}
+
+
+
+.header__link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--color-logo);
+}
+
+.header__nav {
+    display: flex;
+    margin: 0;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.header__logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    color: var(--color-blue);
+    text-decoration: none;
+}
+
+
+.header__text {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color 250ms $cubik;
+    color: $header-list;
+    text-decoration: none;
+
+    &:hover {
+        color: $color-blue;
+    }
+
+    &:focus {
+        color: $color-main;
+    }
+}
+
+
+.current {
+    position: relative;
+    color: $color-blue;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        bottom: -5px;
+        left: 0;
+        border-radius: 2px;
+        background-color: $color-blue;
+    }
+}
+
+
+.header__item {
+    margin-left: 50px;
+
+    &:first-child{
+    margin-left: 0px;
+    }
+}
+
+
+.header__contacts {
+    display: flex;
+    margin: 0;
+    margin-left: auto;
+    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.header__label {
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    line-height: 1.7;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color 250ms $cubik;
+
+    &--color {
+        color: $color-text;
+    }
+
+    &:hover, 
+    &:focus {
+        color: $color-blue;
+        transition: color 250ms $cubik;
+    }
+
+}
+
+.header__envelope {
+    width: 16px;
+    height: 12px;
+    fill: $color-text;
+    margin-right: 10px;
+
+    .header__label:hover & {
+        fill: $color-blue;
+        transition: color 250ms $cubik;
+    }
+}
+
+.header__smartphone {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: $color-text;
+
+    .header__label:hover & {
+        fill: $color-blue;
+        transition: color 250ms $cubik;
+    }
+}
+

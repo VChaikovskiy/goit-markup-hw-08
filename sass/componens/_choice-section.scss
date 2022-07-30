@@ -1,0 +1,52 @@
+.choice-section {
+    display: block;
+    text-align: center;
+}
+
+.choice-section {
+    background-color: var(--color-choice);
+    padding-bottom: 200px;
+    padding-top: 200px;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4) 40%, rgba(47, 48, 58, 0.4) 40%),
+        url(../images/Img14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid var(--color-logo);
+}
+.hero-container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    color: var(--color-main);
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 30px;
+    width: 696px;
+}
+.btn {
+    background-color: var(--color-blue);
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: var(--color-main);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--button-radius);
+    padding: 10px 32px;
+    margin-top: 30px;
+}

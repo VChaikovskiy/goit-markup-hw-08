@@ -1,0 +1,40 @@
+$border-color-nav: #ECECEC;
+$header-list: #212121;
+$cubik: cubic-bezier(0.4, 0, 0.2, 1);
+$color-blue: #2196F3;
+$color-main: #FFFFFF;
+$color-text: #757575;
+$background-color-img-box:rgba(47, 48, 58, 0.8);
+$button-radius:4px 4px 4px 4px;
+$color-logo:#000000;
+$fotter-list:#FFFFFF;
+$color-button:#F5F4FA;
+$box-shadow:0px 1px 3px rgba(0, 0, 0, 0.12),
+0px 1px 1px rgba(0, 0, 0, 0.14),
+0px 2px 1px rgba(0, 0, 0, 0.2);
+
+:root {
+    --color-choice: #2F303A;
+    --color-main: #FFFFFF;
+    --color-blue: #2196F3;
+    --color-footer: #2F303A;
+    --fotter-list: #FFFFFF;
+    --heder-list: #212121;
+    --color-text: #757575;
+    --color-logo: #000000;
+    --color-fotter-contact: rgba(255, 255, 255, 0.6);
+    --color-button: #F5F4FA;
+    --cardset-gap: 30px;
+    --icon-gap: 10px;
+    --box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    --box-radius: 0px 0px 4px 4px;
+    --button-radius: 4px 4px 4px 4px;
+    --border-color: #EEEEEE;
+    --border-color-nav: #ECECEC;
+    --backgroung-color-hero: #C4C4C4;
+    --fill-icon-socials: #AFB1B8;
+    --cubik: cubic-bezier(0.4, 0, 0.2, 1);
+    --background-color-img-box: rgba(47, 48, 58, 0.8);
+}
