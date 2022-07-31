@@ -4,11 +4,16 @@
     border-bottom-color: $border-color-nav;
     border-width: 1px;
 
-    &__container {
+    &__container  {
+        @media screen and (max-width: 480px) {
+            max-width: 480px;
+        }
         display: flex;
         align-items: center;
     }
 }
+
+
 
 .header__navigation {
     display: flex;
