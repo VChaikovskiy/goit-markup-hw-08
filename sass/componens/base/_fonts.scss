@@ -14,12 +14,14 @@ address {
     padding-right: 15px;
 }
 body {
+    min-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
     font-family: Roboto, sans-serif;
     color: var(--color-text);
     background-color: var(--color-main);
     font-size: 14px;
     letter-spacing: 0.03em;
-
 }
 
 h1,

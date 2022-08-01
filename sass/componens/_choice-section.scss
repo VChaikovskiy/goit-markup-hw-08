@@ -17,22 +17,34 @@
     border: 1px solid var(--color-logo);
 }
 .hero-container {
-    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+
+    @media screen and (min-width: 480px) {
+        min-width: 480px;
+    }
+
 }
 .hero {
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
+    font-size: 26px;
+    line-height: 1.6;
     color: var(--color-main);
     margin: 0 auto;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.06em;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 30px;
-    width: 696px;
+    max-width: 360px;
+
+    // @media screen and (min-width: 480px) {
+    //     min-width: 480px;
+    // }
+
 }
 .btn {
     background-color: var(--color-blue);
