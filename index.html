@@ -55,7 +55,7 @@
           </div>
           <div class="menu-container__item">
             <ul class="header__contacts">
-              <li class="header__item">
+              <li class="header__cont">
                 <a class="header__label header__label--color" href="mailto:info@devstudio.com">
                   <svg class="header__envelope">
                       <use href="./images/symbol-defsnew.svg#icon-envelope">
@@ -64,8 +64,8 @@
                 info@devstudio.com</a
                 >
               </li>
-              <li class="header__item">
-                <a class="header__label header__label--color" href="tel:+380961111111">
+              <li class="header__cont size">
+                <a class="header__label header__label--color size" href="tel:+380961111111">
                   <svg class="header__smartphone">
                       <use href="./images/symbol-defsnew.svg#icon-smartphone">
                       </use>
@@ -73,6 +73,12 @@
                   +38 096 111 11 11</a
                 >
               </li>
+            </ul>
+            <ul class="menu-socials">
+              <li class="menu-socials__item"><a class="menu-socials__link" href="#">Инстаграм</a></li>
+              <li class="menu-socials__item"><a class="menu-socials__link" href="#">Твиттер</a></li>
+              <li class="menu-socials__item"><a class="menu-socials__link" href="#">Фейсбук</a></li>
+              <li class="menu-socials__item"><a class="menu-socials__link" href="#">Линкедин</a></li>
             </ul>
           </div>
         </div>
@@ -123,19 +129,19 @@
                     <label class="form-name-label" for="user-coment">Комментарий</label>
                     <textarea class="form-name-input form-name-input-textarea" name="user-coment" id="user-coment" rows="10" placeholder="Введите текст"></textarea>
                   </div>
-                </div>
-                <div class="form-name checkbox">
-                  <label class="checkbox-label" for="checkbox">
-                    Соглашаюсь с рассылкой и принимаю
-                    <a class="form-name-lable-text" href="#">Условия договора </a>
-                    <input class="checkbox-input visually-hidden" id="checkbox" type="checkbox" name="checkbox">
-                    <svg class="checkbox-icon icon-chek" width="16" height="15">
-                      <use href="./images/symbol-defs-icon.svg#icon-box"></use>
-                    </svg>
-                    <svg class="checkbox-icon icon-bird" width="16" height="15">
-                      <use href="./images/symbol-defs-bird.svg#icon-bird"></use>
-                    </svg>
-                  </label>
+                  <div class="form-name checkbox">
+                    <label class="checkbox-label" for="checkbox">
+                      Соглашаюсь с рассылкой и принимаю
+                      <a class="form-name-lable-text" href="#">Условия договора </a>
+                      <input class="checkbox-input visually-hidden" id="checkbox" type="checkbox" name="checkbox">
+                      <svg class="checkbox-icon icon-chek" width="16" height="15">
+                        <use href="./images/symbol-defs-icon.svg#icon-box"></use>
+                      </svg>
+                      <svg class="checkbox-icon icon-bird" width="16" height="15">
+                        <use href="./images/symbol-defs-bird.svg#icon-bird"></use>
+                      </svg>
+                    </label>
+                  </div>
                 </div>
                 <button class="form-name-btn" type="submit">Отправить</button>
               </form>

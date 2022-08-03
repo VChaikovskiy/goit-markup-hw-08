@@ -26,10 +26,18 @@
     padding-right: 15px;
     text-align: center;
 
+    @media screen and (min-width: 480px) {
+        max-width: 480px;
+    }
+
+    @media screen and (min-width: 768px) {
+        max-width: 768px;
+    }
 
     @media screen and (min-width: 1200px) {
         display: flex;
         align-items: baseline;
+        max-width: 1200px;
     }
 
 }
@@ -46,6 +54,12 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: baseline;
+        text-align: left;
     }
 
 }
@@ -169,6 +183,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        margin-top: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-left: 93px;
+    }
 }
 
 .subscribe-form {
@@ -201,6 +223,7 @@
 
     @media screen and (min-width: 1200px) {
         display: flex;
+        flex-direction: row;
         position: relative;
     }
 
@@ -274,6 +297,7 @@
 
     @media screen and (min-width: 1200px) {
         margin-left: 12px;
+        margin-top: 0;
     }
 
 }
