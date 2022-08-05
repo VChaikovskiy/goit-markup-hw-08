@@ -28,6 +28,19 @@ address {
     
 
 }
+
+.section {
+    @media screen and (max-width: 1199px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}
+
 body {
     min-width: 320px;
     margin-right: auto;
@@ -37,6 +50,12 @@ body {
     background-color: var(--color-main);
     font-size: 14px;
     letter-spacing: 0.03em;
+    @media screen and (max-width: 767px) {
+        padding-top: 60px;
+    }
+    @media screen and (min-width: 768px) {
+        padding-top: 80px;
+    }
 }
 
 h1,

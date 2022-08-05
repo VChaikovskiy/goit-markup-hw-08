@@ -1,5 +1,11 @@
 .about__section {
     @media screen and (max-width: 1199px) {
         display: none;
+        padding-top: 0;
+        padding-bottom: 60px;
+    }
+    @media screen and (min-width: 1200px) {
+        padding-top: 0;
+        padding-bottom: 94px;
     }
 }

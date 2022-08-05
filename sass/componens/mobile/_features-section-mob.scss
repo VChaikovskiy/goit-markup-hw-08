@@ -1,14 +1,14 @@
-
-.section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-
+.features-section {
+     @media screen and (max-width: 1199px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
     @media screen and (min-width: 1200px) {
         padding-top: 94px;
         padding-bottom: 94px;
     }
 }
-
 
 .visually-hidden {
     position: absolute;
@@ -49,8 +49,9 @@
         width: calc((100% - 60px)/2);
     }
     @media screen and (min-width: 1200px) {
-        width: 270px;
+        min-width: 270px;
         margin: 0;
+        margin-right: 30px;
         &:nth-child(4n){
             margin-right: 0;
         }

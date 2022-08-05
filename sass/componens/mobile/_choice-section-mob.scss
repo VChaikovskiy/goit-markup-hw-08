@@ -1,3 +1,10 @@
+.section {
+    @media screen and (min-width: 1200px) {
+        padding-bottom: 200px;
+        padding-top: 200px;
+    }
+}
+
 .choice-section {
     display: block;
     text-align: center;
@@ -42,6 +49,11 @@
         screen and (min-width: 1200px) and (min-resolution: 2dppx) {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4) 40%, rgba(47, 48, 58, 0.4) 40%),
             url(../images/Img14.jpg);
+            background-color: var(--color-choice);
+            padding-bottom: 200px;
+            padding-top: 200px;
+            max-width: 1600px;
+            width: 100%;
         }
 
         @media screen and (min-width: 1200px) {
