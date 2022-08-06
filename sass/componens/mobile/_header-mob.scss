@@ -264,6 +264,16 @@
         margin-bottom: 32px;
     }
 
+    @media screen and (min-width: 768px) {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
     
 
     &:hover {
@@ -288,12 +298,14 @@
             position: absolute;
             width: 100%;
             height: 4px;
-            bottom: -32px;
+            bottom: 0px;
             left: 0;
             border-radius: 2px;
             background-color: $color-blue;
         }
     }
+
+    
 
 }
 
@@ -385,6 +397,13 @@
             }
     
         }
+
+        @media screen and (min-width: 1200px) {
+            margin-right: 30px;
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
 }
 
 .header__label {
@@ -410,6 +429,12 @@
         font-size: 12px;
     }
 
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
     &--color {
         color: $color-text;
     }
@@ -425,7 +450,6 @@
 .size {
     @media screen and (max-width: 767px) {
         font-size: 34px;
-           
     }
 }
 
