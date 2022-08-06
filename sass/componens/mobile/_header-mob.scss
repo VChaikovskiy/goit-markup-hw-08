@@ -357,7 +357,6 @@
     @media screen and (min-width: 768px) {
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
 
     @media screen and (min-width: 1200px) {
@@ -426,6 +425,7 @@
         }
 
     @media screen and (min-width: 768px) {
+        display: flex;
         font-size: 12px;
     }
 
@@ -488,13 +488,24 @@
 
 .menu-socials {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     // margin-top: 64px;
 
     @media screen and (min-width: 768px) {
         display: none;
     }
-
+    &__item{
+        padding-right: 10px;
+        padding-left: 10px;
+        border-right: solid 1px;
+            &:first-child{
+                padding-left: 0;
+            }
+            &:last-child {
+                padding-right: 0;
+                border-right: 0;
+            }
+    }
     &__link {
         @media screen and (max-width: 767px) {
             line-height: 1.2222;
